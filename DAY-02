@@ -14,7 +14,7 @@ Key Functions:
 - Transform raw signals into structured, meaningful representations
 - Provide situational awareness for decision-making
 
-Conceptual Notes:
+Conceptual Notes:-
 - Perception is the "eyes and ears" of an agent.
 - Without perception, reasoning and planning cannot be grounded in reality.
 - Modern AI perception includes natural language understanding, computer vision, and multimodal data fusion.

@@ -1,0 +1,85 @@
+Agentic AI: Core Components (Day 2)
+
+Introduction
+Agentic AI systems are not just reactive tools; they are autonomous agents capable of perceiving, reasoning, planning, and acting in dynamic environments. These four components form the foundation of agentic intelligence, enabling systems to operate proactively, adapt to change, and collaborate effectively with humans and other agents.
+
+------------------------------------------------------------
+1. Perception
+------------------------------------------------------------
+Definition:
+Perception is the ability of an agent to sense, collect, and interpret information from its environment.
+
+Key Functions:
+- Gather data from sensors, user inputs, or digital sources
+- Transform raw signals into structured, meaningful representations
+- Provide situational awareness for decision-making
+
+Conceptual Notes:
+- Perception is the "eyes and ears" of an agent.
+- Without perception, reasoning and planning cannot be grounded in reality.
+- Modern AI perception includes natural language understanding, computer vision, and multimodal data fusion.
+
+Examples:
+- A self-driving car perceives road signs, traffic lights, and pedestrian movement.
+- A digital agent perceives user commands, system logs, or external data streams to understand context.
+
+------------------------------------------------------------
+2. Reasoning
+------------------------------------------------------------
+Definition:
+Reasoning is the process of interpreting information, drawing logical conclusions, and evaluating possible outcomes.
+
+Key Functions:
+- Analyze perceived data to identify patterns and relationships
+- Apply knowledge, rules, or learned models to make sense of situations
+- Support decision-making by weighing alternatives
+
+Conceptual Notes:
+- Reasoning is the "brain" of an agent.
+- It transforms perception into actionable insights.
+- Reasoning can be deductive (rule-based), inductive (pattern-based), or abductive (best explanation).
+
+Examples:
+- An agent reasons that a system error log indicates a potential failure and considers corrective measures.
+- A healthcare agent reasons that a patient’s symptoms align with a specific diagnosis.
+
+------------------------------------------------------------
+3. Planning
+------------------------------------------------------------
+Definition:
+Planning is the ability to design a sequence of actions to achieve defined goals.
+
+Key Functions:
+- Define objectives and sub-goals
+- Organize tasks into logical steps
+- Anticipate obstacles and prepare alternatives
+- Optimize strategies for efficiency and success
+
+Conceptual Notes:
+- Planning is the "strategist" of an agent.
+- It bridges reasoning (what should be done) with action (how to do it).
+- Effective planning requires foresight, adaptability, and contingency management.
+
+Examples:
+- An agent plans a workflow to automate a software deployment, including error handling and rollback strategies.
+- A logistics agent plans delivery routes to minimize cost and time.
+
+------------------------------------------------------------
+4. Action
+------------------------------------------------------------
+Definition:
+Action is the execution of planned tasks in the environment.
+
+Key Functions:
+- Implement decisions through commands, operations, or interactions
+- Monitor outcomes and adjust behavior if needed
+- Close the loop by feeding results back into perception
+
+Conceptual Notes:
+- Action is the "hands and feet" of an agent.
+- It turns abstract plans into tangible results.
+- Actions can be physical (robotics) or digital (software operations).
+
+Examples:
+- An agent executes deployment scripts, monitors system performance, and adapts if errors occur.
+- A customer service agent sends emails, updates records, and initi

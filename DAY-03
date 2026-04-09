@@ -1,0 +1,72 @@
+Day 3: LLM vs Agent (Code Demo)
+
+🎯 Objective
+Demonstrate the difference between a Large Language Model (LLM) and an Agent through a simple code example.
+
+---
+
+🧠 LLM Demo
+LLMs are stateless predictors. They generate outputs based only on the input prompt, without memory or environment interaction.
+
+Example: Simple Q&A with an LLM
+--------------------------------------------------
+from openai import OpenAI
+
+client = OpenAI()
+
+response = client.chat.completions.create(
+    model="gpt-4",
+    messages=[{"role": "user", "content": "What is 12 * 8?"}]
+)
+
+print(response.choices[0].message.content)
+--------------------------------------------------
+
+Expected Output:
+96
+
+---
+
+🤖 Agent Demo
+Agents combine an LLM with tools, memory, and decision-making loops. They can plan, act, and observe results before responding.
+
+Example: Agent with a Calculator Tool
+--------------------------------------------------
+from langchain import OpenAI, Tool, AgentExecutor
+
+# Define a simple calculator tool
+def calculator(query: str) -> str:
+    return str(eval(query))
+
+tools = [
+    Tool(
+        name="Calculator",
+        func=calculator,
+        description="Useful for math calculations"
+    )
+]
+
+llm = OpenAI(model="gpt-4")
+agent = AgentExecutor.from_agent_and_tools(agent=llm, tools=tools)
+
+# Ask a math question
+response = agent.run("What is (12 * 8) + 50?")
+print(response)
+--------------------------------------------------
+
+Expected Output:
+146
+
+---
+
+🔑 Key Takeaways
+- LLM → Generates text based on prompt only.
+- Agent → Uses LLM + tools + memory to solve tasks interactively.
+- Agents are more autonomous, while LLMs are predictive.
+
+---
+
+🚀 Next Steps
+- Extend the Agent with more tools (web search, file I/O).
+- Compare performance on real-world tasks.
+- Push this demo into your GitHub repo for Day 3 showcase.

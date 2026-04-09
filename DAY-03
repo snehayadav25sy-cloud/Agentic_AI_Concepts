@@ -9,7 +9,7 @@ Demonstrate the difference between a Large Language Model (LLM) and an Agent thr
 LLMs are stateless predictors. They generate outputs based only on the input prompt, without memory or environment interaction.
 
 Example: Simple Q&A with an LLM
---------------------------------------------------
+------------------------------------------------
 from openai import OpenAI
 
 client = OpenAI()   
